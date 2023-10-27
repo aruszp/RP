@@ -44,7 +44,5 @@ function edit(int $i, string $title, string $text, &$textStorage)
 echo PHP_EOL;
 echo edit(1, 'Животные', 'Бобёр', $textStorage);
 echo PHP_EOL;
-echo PHP_EOL;
-echo PHP_EOL;
 
 var_dump($textStorage);
