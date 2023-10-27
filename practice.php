@@ -26,6 +26,8 @@ function remove($i, &$textStorage)
 echo remove(0, $textStorage);
 echo remove(5, $textStorage);
 echo PHP_EOL;
+echo PHP_EOL;
+
 var_dump($textStorage);
 
 function edit(int $i, string $title, string $text, &$textStorage)
