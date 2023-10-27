@@ -101,7 +101,7 @@ begin
 
  if (TMes>=1) and (TMes<=12) then Edit5.Text:=ansilowercase(namemes[TMes]) else Edit5.TExt:='??';
 
- if Radiogroup1.ItemIndex=2 then ZapolnKBK;
+ if Radiogroup1.ItemIndex=3 then ZapolnKBK;
 
 end;
 
